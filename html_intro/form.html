@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form</title>
+</head>
+<body>
+	<h1>FORM EXAMPLES</h1>
+		<form action="">
+		<p>
+			<label> Name:</label>
+			<input type="text" value="Ciccio">
+		</p>
+		<p>
+			<label> Surname:</label>
+			<input type="text" placeholder="your surname" required>
+		</p>
+		<p>
+			<label> Phone number:</label>
+			<input type="text">
+		</p>
+		<p>
+			<label> Programming skill level:</label>
+			<input type="range" min="0" max="100" value="0">
+		</p>
+		<p>
+			<label> Rate our site:</label>
+			<input type="number" min="0" max="5" value="1">
+		</p>
+		<p>
+			<label> Born date:</label>
+			<input type="date" >
+		</p>
+		<p>
+			<label> Password:</label>
+			<input type="password" >
+		</p>
+		<p>
+			<label> Born date:</label>
+			<input type="date" >
+		</p>
+		<p>
+			<label> Email:</label>
+			<input type="email" >
+		</p>
+		<p>
+			<label> Message:</label>
+			<textarea rows="3" cols="55"></textarea>
+		</p>
+		<p>
+			<input disabled="disabled" value="disable input">
+		</p>
+	
+	
+		<fieldset>
+			<legend>Fieldset</legend>
+				<p>
+					<label> Hobby</label>
+					<select multiple> 
+							<option value="0" selected>Food</option>
+							<option value="1">Music</option>
+							<option value="2" selected>Sport</option>
+							<option value="3">Reading</option>
+					</select>
+				</p>
+		</fieldset>
+		<br>
+		
+		<fieldset>
+			<legend>Gender</legend>
+			<label for="radio1">Male</label>
+			<input type="radio" id="radio1" value="male" name="gender"/>
+			<label for="radio1">Female</label>
+			<input type="radio" id="radio2" value="female" name="gender"/>
+			<label for="radio1">Other</label>
+			<input type="radio" id="radio3" value="other" name="gender"/>
+		</fieldset>
+		<br>
+		
+		
+		<fieldset>
+			<legend>I want to be contacted by</legend>
+			<label for="checkbox1">email</label>
+			<input type="checkbox" id="checkbox1" value="email" name="contact"/>
+			<label for="checkbox1">phone</label>
+			<input type="checkbox" id="checkbox2" value="phone" name="contact"/>
+			<label for="checkbox1">post</label>
+			<input type="checkbox" id="checkbox3" value="post" name="contact"/>
+		</fieldset>
+		<br>
+		
+		<fieldset>
+			<legend>Button of any type</legend>
+			<button type="reset" value="resetAll">Reset</button>
+			<br> </br>
+			<input type="button" value="Javascript" onclick="Javascript: alert('Ciao ciao')" />
+			<br><br>
+			<input type="submit" value="SubmitForm!" />
+		</fieldset>
+	</form>
+</body>
+</html>
