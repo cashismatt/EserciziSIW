@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color: lime;
+	margin: 2.5em;
+	background-image: url("https://italianstockholm.files.wordpress.com/2013/06/ciao.gif?w=300&h=279");
+	background-repeat: no-repeat;
+	background-position: 80% 100%;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 2em;
+	color: red;
+	font-weight: normal;
+	text-align: center;
+}
+
+#primoParagrafo{
+	color: blue;
+}
+
+.mioSpan{
+	color: red;
+	font-weight: bold;
+}
+
+h2 {
+	border: solid red 5px;
+	padding: 20px;
+}

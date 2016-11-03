@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registrazione</title>
+<link rel="stylesheet" href="mioStile.css" type="text/css">
+</head>
+<body>
+	<h1>Benvenuto nella pagina di registrazione</h1>
+	<p id="primoParagrafo">
+		Inserendo nel modulo sottostante potrai usufruire di servizi eccezionali. <span class="mioSpan">Cosa aspetti?</span> <br>
+		(se incontri difficoltà scrivi un email all'indirizzo <a href="mailto:info@wordbook.it">info@wordbook.it</a> )
+	</p>
+	<h2>Modulo di registrazione</h2>
+	
+		<form method="get" action="https://www.mat.unical.it/informatica">
+		<table>
+			<tr>
+				<td>Nome e Cognome</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>Sesso</td>
+				<td> 
+					<input type="radio" name="sesso"> M
+					<input type="radio" name="sesso"> F					
+				</td>
+			</tr>
+			<tr>
+				<td>hai ricevuto la notizia tramite</td>
+				<td>
+					<input type="checkbox" name="notizia"> internet
+					<input type="checkbox" name="notizia"> giornali
+					<input type="checkbox" name="notizia"> tv
+				</td>
+			</tr>
+			<tr>
+				<td>Desideri ricevere notizie ogni? </td>
+				<td>
+					<select>
+							<option value="Frequenza" selected> Frequenza</option>
+							<option value="settimana" > sett</option>
+							<option value="mese" > mese</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Eventuali commenti </td>
+				<td> 
+					<textarea rows="5" cols="50"></textarea>
+				</td>
+			</tr>
+		</table>
+		<hr>
+		<input type="submit">
+		</form> 
+</body>
+</html>
