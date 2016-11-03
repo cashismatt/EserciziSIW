@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SELETTORI</title>
+<link rel="stylesheet" href="selettori.css" type="text/css"> 
+</head>
+<body>
+	<h1 class="primi_selettori"> Descendent selector, universal selector and grouping</h1>
+	<h2 class="primi_selettori"> Titolo h2</h2>
+	<h3 class="primi_selettori"> Titolo h3</h3>
+	
+	<p id="p1">
+		In this paragraph let me select the strong element, and change 
+		his color to <strong>red</strong>, using a descendat selector
+	</p>
+	<p> 
+		Second paragraph <strong>strong</strong> 
+	</p>
+	
+	<hr>
+	<hr>
+	
+	<h1> This is a child selector</h1>
+	<p>this is a paragraph </p>
+	<div>
+		<p id="pConSpan">
+		and this is a paragraph inside a div, <span> with a child span correctly selected</span>
+		</p>
+	</div>
+	<p>
+		finally another paragraph
+	</p>
+	
+	<hr>
+	<hr>
+	
+	<h1 class="primi_selettori"> ADJACENT SELECTOR</h1>
+	
+		<ul>
+			<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, sunt?</li>
+			<li>Sapiente exercitationem dolorem expedita similique architecto, fuga necessitatibus eligendi aliquid.</li>
+			<li>Eum, animi. Reiciendis repudiandae cum impedit? Consectetur molestias, in consequuntur.</li>
+		</ul>
+		
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+		Architecto ipsum fugit hic ipsa modi, ad ipsam qui porro! Accusamus, architecto?
+		<div> 
+			</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+			Architecto ipsum fugit hic ipsa modi, ad ipsam qui porro! Accusamus, architecto?
+			</p>
+			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+			Architecto ipsum fugit hic ipsa modi, ad ipsam qui porro! Accusamus, architecto?
+			</p>
+		</div>
+		
+		<hr>
+		<hr>
+		<h1 class="primi_selettori"> Attribute selector</h1>
+				<span id="1" >span id='1'</span>
+				<br>
+			  	<span id="123">span id='123'</span>
+			  	<br>
+			  	<span class="class1 class2">span class='class1 class2'</span>
+				<br>
+				<span class="class3 class4">span with class that starts with 'class3'</span>
+				<br>
+				<span class="class5-class6">span class ='class5-class6'</span>
+				
+		<hr>
+		<hr>
+		<h1> ID and CLASS SELECTOR</h1>
+		<div id="myid">
+		  	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, minima. Ut quisquam doloremque <span class="myclass">nesciunt</span> 
+		  	assumenda, est totam in vero possimus.
+		  	</div>
+		    <p class="myclass">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		    <p id="mysecondid">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+		 </div>
+		
+		<hr>
+		<hr>
+		
+		<h1>PSEUDO CLASSES</h1>
+		<p>
+		<a href="https://www.google.it/?gws_rd=ssl"> Google</a>
+		<form>
+			</p>
+			<br>
+			<label> Text </label>
+			<input type="text" id="input_text">
+			<br>
+			<div>
+			  	<input class="my_radio" type="radio" name="radio"/>
+			  	<label for="radio">Radio</label>
+			</div>
+
+		</form>
+</body>
+</html>
