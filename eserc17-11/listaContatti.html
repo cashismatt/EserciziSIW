@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Lista contatti</title>
+</head>
+<body onload="init();">
+<script type="text/javascript" src="listaContatti.js"> </script>
+<form action=""  method="post">
+	<table>
+		<thead>
+			<tr>
+				<th> Nome </th>
+				<th> Cognome </th>
+				<th> Telefono </th>
+				<th> Mail </th>
+			</tr>
+		</thead>
+		<tbody id="tBody">
+			
+			<tr id="ultimaRiga">
+				<td>
+					<input id="nome" type="text" placeholder="nome..">
+				</td>
+				<td>
+					<input id="cognome" type="text" placeholder="cognome..">
+				</td>
+				<td>
+					<input id="telefono" type="text" placeholder="telefono..">
+				</td>
+				<td>
+					<input id="mail" type="text" placeholder="mail..">
+				</td>
+				<td>
+					<button id="addContatto">  Aggiungi </button>
+				</td>
+				<td>
+					<button id="resetButton"> Reset </button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p> <input type="submit"> </p>
+</form>
+</body>
+</html>
